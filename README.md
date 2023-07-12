@@ -56,9 +56,3 @@ A API possui as seguintes rotas:
 Você pode acessar as rotas acima através de um navegador ou de uma ferramenta como cURL ou Postman.
 
 Certifique-se de substituir `<nome_pacote>` e `<versao_python>` pelos valores desejados ao fazer a busca pelos pacotes.
-
-## Considerações Finais
-
-Este programa é um exemplo básico de como obter informações sobre pacotes Python usando a API do PyPI e fornecer uma API para acessar essas informações. Você pode personalizar e expandir o código de acordo com suas necessidades.
-
-Não se esqueça de tratar adequadamente os erros, implementar autenticação (se necessário) e garantir a segurança da API ao implantá-la em um ambiente de produção.
