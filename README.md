@@ -27,9 +27,3 @@ python programa.py
 ```
 
 5. O programa irá imprimir as respostas para cada um dos problemas propostos.
-
-## Considerações Finais
-
-Este programa utiliza os dados dos arquivos "reference.txt" e "data.csv" para realizar análises e responder às perguntas propostas. Certifique-se de que os arquivos estejam formatados corretamente e sigam as especificações fornecidas.
-
-Lembre-se de que este é apenas um exemplo básico e pode ser necessário ajustar o código dependendo do formato real dos arquivos. Além disso, é importante considerar a validação dos dados, tratamento de erros e outras melhorias para tornar a análise mais robusta e confiável.
