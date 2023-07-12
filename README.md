@@ -1,4 +1,4 @@
-# TesteAqui está um exemplo de README para o programa e instruções sobre como executá-lo:
+# Teste:
 
 # Informações sobre Pacotes Python
 
