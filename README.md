@@ -1,21 +1,14 @@
-# TesteAqui está um exemplo de README para o programa e instruções sobre como executá-lo:
+# Análise de Dados de Pacientes
 
-# Informações sobre Pacotes Python
+Este programa lê os arquivos "reference.txt" e "data.csv" para analisar dados de pacientes e resolver os seguintes problemas:
 
-Este programa cria um arquivo CSV com informações sobre pacotes Python, obtidas a partir da API do PyPI. Além disso, fornece uma API para acessar essas informações, permitindo a ordenação e busca por nome e versão do Python.
+1) Qual a porcentagem de pessoas acima de 40 anos que possuem colesterol alto?
+2) Qual a porcentagem de pessoas acima de 40 anos que possuem colesterol alto e também alto teor de açúcar no sangue?
+3) Pode-se relacionar o colesterol alto combinado com alto teor de açúcar no sangue ao desenvolvimento de hipertrofia ventricular esquerda do coração? Explique apresentando dados amostrais.
 
 ## Requisitos
 
-Para executar o programa, você precisa ter as seguintes dependências instaladas:
-
-- Python 3 (versão 3.6 ou superior)
-- Bibliotecas Python: Flask e requests
-
-Você pode instalar as bibliotecas necessárias executando o seguinte comando:
-
-```
-pip install flask requests
-```
+Para executar o programa, é necessário ter o Python 3 instalado no seu ambiente. Além disso, não são necessárias bibliotecas adicionais.
 
 ## Como executar o programa
 
@@ -23,42 +16,20 @@ Siga as etapas abaixo para executar o programa:
 
 1. Clone ou faça o download deste repositório para o seu ambiente local.
 
-2. Navegue até o diretório do projeto:
+2. Certifique-se de que os arquivos "reference.txt" e "data.csv" estejam presentes no diretório do programa.
+
+3. Abra um terminal ou prompt de comando e navegue até o diretório onde o programa está localizado.
+
+4. Execute o seguinte comando para iniciar a análise dos dados:
 
 ```
-cd informacoes-pacotes-python
+python programa.py
 ```
 
-3. Execute o script `gerar_csv.py` para obter as informações dos pacotes e criar o arquivo CSV:
-
-```
-python gerar_csv.py
-```
-
-Isso irá gerar um arquivo chamado `pacotes.csv` com as informações dos pacotes.
-
-4. Após ter o arquivo CSV criado, execute o script `api.py` para iniciar o servidor da API:
-
-```
-python api.py
-```
-
-A API será iniciada e estará disponível no endereço `http://localhost:5000/`.
-
-## Rotas da API
-
-A API possui as seguintes rotas:
-
-- `/pacotes`: retorna os pacotes ordenados por nome.
-- `/pacotes/nome?nome=<nome_pacote>`: busca pacotes pelo nome.
-- `/pacotes/versao_python?versao_python=<versao_python>`: busca pacotes pela versão do Python.
-
-Você pode acessar as rotas acima através de um navegador ou de uma ferramenta como cURL ou Postman.
-
-Certifique-se de substituir `<nome_pacote>` e `<versao_python>` pelos valores desejados ao fazer a busca pelos pacotes.
+5. O programa irá imprimir as respostas para cada um dos problemas propostos.
 
 ## Considerações Finais
 
-Este programa é um exemplo básico de como obter informações sobre pacotes Python usando a API do PyPI e fornecer uma API para acessar essas informações. Você pode personalizar e expandir o código de acordo com suas necessidades.
+Este programa utiliza os dados dos arquivos "reference.txt" e "data.csv" para realizar análises e responder às perguntas propostas. Certifique-se de que os arquivos estejam formatados corretamente e sigam as especificações fornecidas.
 
-Não se esqueça de tratar adequadamente os erros, implementar autenticação (se necessário) e garantir a segurança da API ao implantá-la em um ambiente de produção.
+Lembre-se de que este é apenas um exemplo básico e pode ser necessário ajustar o código dependendo do formato real dos arquivos. Além disso, é importante considerar a validação dos dados, tratamento de erros e outras melhorias para tornar a análise mais robusta e confiável.
